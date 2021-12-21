@@ -10,7 +10,7 @@ class AddUser extends Component {
          }
     }
     changeHandler = e=>{
-            // this.setState({name: e.target.value});
+           
             if(e.target.name==='userName'){
                 this.setState({name:e.target.value})
             }
